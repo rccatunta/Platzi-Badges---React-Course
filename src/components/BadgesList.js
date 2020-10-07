@@ -22,7 +22,7 @@ class BadgesList extends React.Component {
             <li key={badge.id} className="BadgesListItem">
               <Link
                 className="text-reset text-decoration-none"
-                to={`/badges/${badge.id}/edit`}
+                to={`/badges/${badge.id}`}
               >
                 <img
                   src={badge.avatarUrl}
